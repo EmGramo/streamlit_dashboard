@@ -3,7 +3,7 @@ import plotly.express as px
 import streamlit as st
 
 st.header('Análisis de Vehículos en Venta - USA')
-car_data = pd.read_csv('vehicles_us.csv')
+car_data = pd.read_csv('data/vehicles_us.csv')
 
 # Botón para histograma
 if st.button('Construir histograma'):
